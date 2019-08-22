@@ -6,7 +6,7 @@ import { numberFormat} from "./utils";
 class DealChart extends React.Component {
   render() {
     const data = this.props.data;
-    const chartWidth = 900;
+    const chartWidth = 960;
     const chartHeight = 500;
     const chartDomain = [0, 1000];
     console.log(data)

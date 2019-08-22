@@ -45,7 +45,7 @@ module PipelineService
     end
     
     def make_key(pct, name)
-      "   #{pct}".reverse[0..2].reverse + "%-#{name}"
+      "   #{pct}".reverse[0..2].reverse + "% #{name}"
     end
   end
 end
