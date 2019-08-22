@@ -6,19 +6,22 @@ module PipelineService
 
   class Deals
 
-    attr_reader :url, :error
+    attr_reader :error, :data
 
     def initialize
       @error = nil
-      @url = "#{PIPELINE_API_URL}?api_key=#{PIPELINE_API_KEY}"
+      @data = nil
+    end
+
+    def self.deals_url(attrs = nil)
+      "#{PIPELINE_API_URL}?api_key=#{PIPELINE_API_KEY}" + (attrs ? "&attrs=#{attrs}" : '')
     end
 
     def fetch(attrs = nil)
-      url = URI(attrs ? "#{@url}&attrs=#{attrs}" : @url)
-      puts "Fetching with: #{url}"
-      data = JSON.parse(Net::HTTP.get(url))
+      url = PipelineService::Deals.deals_url(attrs)
+      data = JSON.parse(Net::HTTP.get(URI(url)))
       @data = data["entries"]
-      @data.each {|d| p d['deal_stage']}
+      @data.length
     rescue StandardError => e
       @error = "Error fetching Pipeline data: #{e}"
     end
