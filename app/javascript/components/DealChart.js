@@ -12,7 +12,7 @@ class DealChart extends React.Component {
     console.log(data)
 
     return (
-      <XYPlot  xType="ordinal" width={chartWidth} height={chartHeight} yDomain={chartDomain} >
+      <XYPlot  xType="ordinal" width={chartWidth} height={chartHeight} yDomain={chartDomain} color={'green'} >
         <HorizontalGridLines />
         <XAxis  />
         <YAxis left={20} right={10} />

@@ -9,7 +9,7 @@ module PipelineService
     attr_reader :url, :error
 
     def initialize
-      @error = ''
+      @error = nil
       @url = "#{PIPELINE_API_URL}?api_key=#{PIPELINE_API_KEY}"
     end
 
@@ -42,6 +42,8 @@ module PipelineService
       data_for_chart = []
       scd.each_pair {|k,v| data_for_chart << {y: v, x: k}}
       data_for_chart
+    rescue StandardError => e
+      @error = "Error formatting Pipeline data for chart: #{e}"
     end
     
     def make_key(pct, name)
