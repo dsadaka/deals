@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a73340d8-b8e3-4529-aac6-2bb6e6697285" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test/fixtures/files/raw_deals.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/services/pipeline_service_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deals.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deals.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/services/pipeline_service.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/pipeline_service.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_helper.rb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/node_modules/" />
     <ignored path="$PROJECT_DIR$/.bundle/" />
@@ -84,8 +77,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="308">
-                <caret line="24" column="48" lean-forward="true" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
+              <first_editor relative-caret-position="278">
+                <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
               </first_editor>
               <second_editor />
             </state>
@@ -473,7 +466,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1566418528510</updated>
-      <workItem from="1566418529695" duration="31390000" />
+      <workItem from="1566418529695" duration="32419000" />
     </task>
     <task id="LOCAL-00001" summary="Merge branch 'master' of github.com:dsadaka/deals&#10;&#10;# Conflicts:&#10;#&#9;.gitignore&#10;#&#9;README.md">
       <created>1566419807506</created>
@@ -503,11 +496,25 @@
       <option name="project" value="LOCAL" />
       <updated>1566444324705</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Solution complete. Ready for testing.">
+      <created>1566493959483</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1566493959483</updated>
+    </task>
+    <task id="LOCAL-00006" summary="commit schema.rb so no need to run migrations">
+      <created>1566494977867</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1566494977867</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31390000" />
+    <option name="totallyTimeSpent" value="32419000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1784" y="-234" width="1625" height="1027" extended-state="0" />
@@ -562,7 +569,9 @@
     <MESSAGE value="chart drawing.  TODO: tweak styling and write tests" />
     <MESSAGE value="styling tweaked, TODO: tests" />
     <MESSAGE value="added error checking." />
-    <option name="LAST_COMMIT_MESSAGE" value="added error checking." />
+    <MESSAGE value="Solution complete. Ready for testing." />
+    <MESSAGE value="commit schema.rb so no need to run migrations" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit schema.rb so no need to run migrations" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/deals@Development__deals.rcov" NAME="Development: deals Coverage Results" MODIFIED="1566493210912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="deals" />
@@ -768,8 +777,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="308">
-            <caret line="24" column="48" lean-forward="true" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
+          <first_editor relative-caret-position="278">
+            <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
           </first_editor>
           <second_editor />
         </state>

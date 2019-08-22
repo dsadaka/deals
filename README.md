@@ -14,13 +14,14 @@ stages are:
 
 ### Techie info
 - Rails Version: 6.0.0
+- Ruby Version: 2.5.5
 - React Version: 16.9.0"
 ## Setup
 ```
 git clone git@github.com:dsadaka/deals.git
 cd deals
 bundle install
-rails db:create db:migrate 
+yarn install
 ```
 ## Run tests
 There are two tests.  One ensures we are reading 100 deals (from stub file). The other compares calculations with expected results.
